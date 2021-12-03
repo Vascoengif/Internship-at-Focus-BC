@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+  </head>
+  <body>
+
+
+    <div id="buttons">
+      <button id = "deleteSensors" onclick="deleteAllSensors()">Delete Sensors</button>
+    </div> 
+
+    <div id="map">
+    </div>
+
+    <pre id="sensorInformation">
+    </pre>
+
+    
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAE1p_ItmlWoewNNGNTs_ETzNdY_4CuEn0&callback=initMap&libraries=&v=weekly"
+      async
+    >
+    </script>
+
+    <script src="clientSimulator.js"></script>
+  </body>
+</html>

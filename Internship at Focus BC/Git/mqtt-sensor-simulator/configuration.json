@@ -1,0 +1,27 @@
+{
+    "sensorMessage":
+    {
+        "sensor_id": "$$i $$",
+        "vehicleType": "$$s [Car,Truck,Bus,Motorcycle,Bicycle] $$",
+        "driver": "$$s [Mario,Fabio,Sandro,Rui,Vasco] $$",
+        "speed": "$$n [0,100] $$",
+        "temperature": "$$n [-10,100] $$",
+        "maxTemperature": "$$n [-10,100] $$",
+        "voltage": "$$n [0,20] $$",
+        "location":
+        {
+            "type": "Point",
+            "coordinates": [ "[$$c [-9.369619, -9.124143, 38.712672, 38.795403] $$]" ],
+            "distance": "$$d $$" 
+        }       
+    },
+
+    "mqttBroker":
+    {
+        "username": "a883a1da-d7bd-4403-8ea1-95f25f9864a4",
+        "password": "ae33f128ce27f4efb811425fa2e4b97bbf0ce7b2dde51d4263e79a3f5b51f957",
+        "topic": "a883a1da-d7bd-4403-8ea1-95f25f9864a4/Car-Sensors",
+        "url": "mqtt://broker-qa.mapify.ai",
+        "port": "1883"
+    }
+}

@@ -1,0 +1,109 @@
+html,
+body
+{
+  background-color: rgba(2, 2, 2, 0.788);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+table
+{
+  width: 30%;
+  border: 5px solid rgb(51, 243, 99);
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+td
+{
+  color: white;
+}
+
+button
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 30px;
+}
+
+#map {
+  height: 90%;
+  width: auto;
+  margin-top: 30px;
+  border: 5px solid rgb(51, 243, 99);
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  clear: left;
+}
+
+#buttons
+{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#sensorInformation
+{
+  padding-top: 10px;
+  padding-left: 10px;
+  color: white;
+  background-color: rgba(2, 2, 2, 0.788);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: large;
+  border-radius: 10px;
+}
+
+#deleteClients
+{
+  background-color: #2adbcc;
+  margin-left: 5px;
+  float: left;
+  font-size: medium;
+}
+
+#hideInformationButton
+{
+  color: black;
+  background-color: rgb(51, 243, 99);
+  margin-bottom: 10px;
+  font-size: medium;
+}
+
+#deleteSensors
+{
+  background-color: #ff1818;
+  float: left;
+  font-size: medium;
+}
+
+@media screen and (max-width: 550px) {
+
+  table{
+    width: 20%;
+  }
+
+  #sensorInformation{
+    font-size: x-small;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  #sensorInformation{
+    font-size: xx-small;
+  }
+
+  button{
+    font-size: small;
+  }
+
+}
+
